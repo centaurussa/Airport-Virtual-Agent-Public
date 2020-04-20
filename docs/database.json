@@ -1,0 +1,12 @@
+{
+  "host":"127.0.0.1",
+  "user" : "root",
+  "port": 3306,
+  "password": "1234",
+
+  "database":"airportInfo",
+  "flight_information_table":"flightInfo",
+  "lost_and_found_table":"lostAndFound",
+  "hotels_table":"hotels",
+  "rooms_table":"rooms"
+}

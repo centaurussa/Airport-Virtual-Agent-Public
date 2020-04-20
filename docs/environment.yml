@@ -1,0 +1,20 @@
+name: AIRPORT_AGENT_ENV
+channels:
+    - nwani
+    - defaults
+dependencies:
+    - defaults::python=3.6
+    - nwani::portaudio
+    - nwani::pyaudio
+    - pip
+    - pip:
+      - Selenium
+      - Pillow
+      - Requests
+      - SpeechRecognition
+      - screeninfo
+      - gTTS
+      - Google
+      - BeautifulSoup4
+      - PyMySQL
+      - Pydub

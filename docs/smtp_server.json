@@ -1,0 +1,9 @@
+{
+	"smtp_server": "smtp.example.com",
+	"port": 587,
+	"FROM": "example@example.com",
+	"TO": "example@example.com",
+	"password": "example1010",
+	"subject": "Request from the Airport",
+	"signature": "\n\n\n\nX Airport,\nRegards"
+}

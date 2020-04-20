@@ -1,0 +1,23 @@
+offline_text_to_speech = 1
+fullscreen = 1
+go_to_monitor_index_of = 0
+rotation_speed = 0.6
+spinning_animation = 1
+speaking_animations = 1
+animaton_size = 400x400
+reset_after_being_idle_for = 120
+animation_popBackAndForth = 0
+input_device_index = auto
+output_device_index = auto
+clear_terminal = 0
+database_enabled = 1
+smtp_server_enabled = 1
+website = http://localhost:80
+animation_goBackAndForth = 1
+
+
+// NOTE: Please keep the order of the defined variable the way they're.
+// *input_device_index can be set to "auto" or n=0 -> n-1, where n is the number of sound input devices
+// *output_device_index can be set to "auto" or n=0 -> n-1, where n is the number of sound output devices
+// *go_to_monitor_index_of can be set to the index of the desired monitor. The animations and chrome tabs will be opened at
+    the supplied index
